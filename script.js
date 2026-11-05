@@ -18,13 +18,13 @@ const PORTFOLIO_DATA = {
      github: URL or null. live: URL or null. notes: optional list, shown for private projects. */
   projects: [
     { title: "Hybrid Music Streaming App", source: "private",
-      summary: "Streaming app with lazy-loaded assets, skeleton loaders, cached database reads and a home screen built from server-defined sections.",
-      stack: ["React", "Kotlin", "Android WebView", "Cloud database"], github: null, live: null,
+      summary: " Unavailable",
+      stack: ["React", "Kotlin"], github: null, live: null,
       shots: [], // add screenshots as { src: "data:image/webp;base64,...", alt: "Home screen" }
       notes: ["React interface inside a Kotlin Android shell, connected through a native bridge.", "Read-through cache cuts repeat database reads on cold and warm starts.", "Artwork loads near the viewport and is decoded at display size to keep memory low.", "Playback state lives natively and is mirrored to the UI."] },
-    { title: "Project Two", source: "public",
-      summary: "Replace with a short description of what this project does and the problem it solves.",
-      stack: ["C++", "Python"], github: "https://github.com/yourusername/project-two", live: null },
+    { title: "Website Wisata Indonesia", source: "public",
+      summary: "The website I created for a school assignment, about a site about Indonesian tourism",
+      stack: ["HTML, JavaScript"], github: "https://github.com/rikooo3/Wisataindonesia-host", live: null },
     { title: "Project Three", source: "public",
       summary: "Replace with a short description of this full-stack project.",
       stack: ["Node.js", "JavaScript", "React"], github: "https://github.com/yourusername/project-three", live: null }
